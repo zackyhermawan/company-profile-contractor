@@ -76,7 +76,8 @@ const testimonials = ref([
                 <div class="grid md:grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-10">
 
                     <!-- CARD 1 -->
-                    <div class="flex flex-col h-full justify-between bg-white border border-gray-300 rounded-xl overflow-hidden hover:bg-orange-100 transition-all duration-300 lg:[clip-path:polygon(0_0,100%_0,100%_75%,80%_100%,0_100%)]">
+                    <div class="flex flex-col h-full justify-between bg-white border border-gray-300 rounded-xl overflow-hidden hover:bg-orange-100 transition-all duration-300"
+                        style="clip-path: polygon(0 0, 100% 0, 100% 75%, 80% 100%, 0 100%);">
 
                         <div class="p-6">
                             <div class="w-14 h-14 mb-3">
@@ -97,7 +98,8 @@ const testimonials = ref([
                     </div>
 
                     <!-- CARD 2 -->
-                    <div class="flex flex-col h-full justify-between bg-white border border-gray-300 rounded-xl overflow-hidden hover:bg-orange-100 transition-all duration-300 lg:[clip-path:polygon(0_0,100%_0,100%_75%,80%_100%,0_100%)]">
+                    <div class="flex flex-col h-full justify-between bg-white border border-gray-300 rounded-xl overflow-hidden hover:bg-orange-100 transition-all duration-300"
+                        style="clip-path: polygon(0 0, 100% 0, 100% 75%, 80% 100%, 0 100%);">
 
                         <div class="p-6">
                             <div class="w-14 h-14 mb-3">
@@ -120,7 +122,8 @@ const testimonials = ref([
                     </div>
 
                     <!-- CARD 3 -->
-                    <div class="flex flex-col h-full justify-between bg-white border border-gray-300 rounded-xl overflow-hidden hover:bg-orange-100 transition-all duration-300 lg:[clip-path:polygon(0_0,100%_0,100%_75%,80%_100%,0_100%)]">
+                    <div class="flex flex-col h-full justify-between bg-white border border-gray-300 rounded-xl overflow-hidden hover:bg-orange-100 transition-all duration-300 "
+                        style="clip-path: polygon(0 0, 100% 0, 100% 75%, 80% 100%, 0 100%);">
 
                         <div class="p-6">
                             <div class="w-14 h-14 mb-3">
