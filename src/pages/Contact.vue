@@ -28,7 +28,7 @@ import { EnvelopeIcon, GlobeAltIcon, HomeIcon, PhoneIcon } from '@heroicons/vue/
                     </div>
                     <div class="flex items-center gap-2 mb-2">
                         <GlobeAltIcon class="w-4 h-4 text-slate-800"/>
-                        <p class="text-gray-600 text-sm tracking-wider">www.zrbuilders.com</p>
+                        <p class="text-gray-600 text-sm tracking-wider">www.example.com</p>
                     </div>
 
                     <div class="mt-5 w-full h-full">
