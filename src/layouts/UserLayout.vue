@@ -38,7 +38,7 @@ const isParentActive = (paths) => {
                 <li class="relative group">
                     <button @click="aboutOpen = !aboutOpen" :class="isParentActive(['/about', '/tata-kelola', '/sertifikat', '/partner'])" class=" cursor-pointer rounded ">
                         Perusahaan
-                        <span class=""></span>
+                        <span class="">▼</span>
                     </button>
 
                     <div v-if="aboutOpen" class="absolute left-0 mt-2 bg-white shadow-lg border rounded w-44 transition-all">
