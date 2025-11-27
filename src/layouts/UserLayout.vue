@@ -29,7 +29,7 @@ const isParentActive = (paths) => {
     <div class="w-full">
         <!-- NAVBAR DESKTOP -->
         <div class="fixed right-0 top-0 left-0 bg-white flex items-center justify-between py-4 px-6 md:px-16 lg:px-24 xl:px-32 shadow-xl z-50">
-            <h1 class="font-bold text-2xl">ZR-<span class="text-orange-500 uppercase">Builders</span> </h1>
+            <RouterLink to="/" class="font-bold text-2xl">ZR-<span class="text-orange-500 uppercase">Builders</span> </RouterLink>
             <ul class="hidden lg:flex items-center gap-5 relative">
                 <li>
                 <RouterLink to="/" :class="isActiveRoute('/')" @click="closeAbout" class="font-semibold rounded pb-1">Beranda</RouterLink>
