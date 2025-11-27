@@ -11,7 +11,7 @@ import { EnvelopeIcon, GlobeAltIcon, HomeIcon, PhoneIcon } from '@heroicons/vue/
         <HeaderAbout image="/assets/contact/hero_contact.jpg" title="Kontak" breadcrumb="Kontak"/>
 
         <div class="py-20 px-6 md:px-16 lg:px-24 xl:px-32">
-            <div class="grid grid-cols-2 gap-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
                 <div class="flex flex-col w-full">
                     <h1 class="text-2xl font-semibold text-slate-800 mb-3">Kantor Kami</h1>
                     <div class="flex items-center gap-2 mb-2">
